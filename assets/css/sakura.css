@@ -1,0 +1,136 @@
+.conterner {
+    margin: 0 auto;
+    
+}
+
+.logincontena {
+    width: 750px;
+    margin: 0 auto;
+    padding-left: 100px;
+    border: 3px solid #6AC1B7;
+    padding-top: 15px;
+}
+
+h2 {
+    padding-left: 120px;
+    color: #8EDAE5;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.buttons button {
+    margin-right: 30px;
+    height: 50px;
+    width: 250px;
+    font-size: 26px;
+    border: none;
+    border-radius: 5px;
+}
+
+.buttons button:hover {
+    opacity: 0.8;
+}
+
+.facebook {
+    background-color: #39579a;
+    color: #fff;
+}
+
+.twitter {
+    background-color: #55acee;
+    color: #fff;
+}
+
+.title {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    color: #50baa1;
+    font-size: 20px;
+    
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+form {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+form label {
+    display: inline;  
+}
+
+ul {
+    list-style: none;
+}
+
+.subbutton {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 200px;
+}
+
+.submit {
+    padding: 10px 60px;
+    font-size: 17px;
+    background-color: #e73d7b;
+    border-color: #e73d7b;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.submit:hover {
+    opacity: 0.8;
+}
+.submit a {
+    /* color: #fff; */
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+input {
+    margin-left: 50px;
+    border: 1px solid silver;
+}
+
+.mail {
+    margin-left: -30px;
+}
+
+.wherebox {
+    display: flex;
+}
+
+.wherebox input {
+    margin-left: 30px;
+}
+
+.wherebox ul {
+    display: none;
+    box-shadow: 0 0 4px #16C4FD;
+}
+
+.wherebox ul  {
+    color: #6495ED;
+    font-family: serif;
+    
+}
+
+textarea {
+    margin-left: 90px;
+    width: 460px;
+    height: 156px;
+}
+label span {
+    margin-left: 30px;
+}
