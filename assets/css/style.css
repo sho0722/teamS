@@ -5,7 +5,7 @@ body {
     "header header header" 3%
     "main main main" 1fr
     "section section section" 1fr
-    "nav nav nav" 3fr
+    "nav nav nav" 1.5fr
     "aside aside aside" 100px
     "footer footer footer" 3%
     /1fr 1fr 1fr; 
@@ -20,15 +20,25 @@ header{
 
 .topBtn{
     position: relative;
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
     top:10px;
     left:10px;
 }
 
 .topLinks{
-    position: relative;
-    top:10px;
-    right: 0px;
+    margin-left:400px;
+    margin-top: 30px;
+        
 }
+
+.topLinks a{
+    color: grey;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
 
 
 
@@ -40,9 +50,33 @@ header{
 
 main{
     grid-area: main;
-    background-color:grey;
+    background-image: url(../images/top.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    
 }
 
+main div {
+    display: flex;
+    /* width: px; */
+    margin: 0 auto;
+    margin-top: 300px;
+}
+
+form{
+    margin-left: 30px;
+}
+
+.select {
+    width: 200px;
+    height: 50px;;
+}
+
+.searchBtn{
+    margin-left: 40px;
+    width: 100px;
+}
 
 
 
@@ -53,6 +87,25 @@ section{
     grid-area: section;
     
 }
+
+section h2 {
+    text-align: center;
+    font-size: 50px;
+    padding: 80px;
+}
+
+.areaBtns button{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.Btns {
+    margin-left: 200px; 
+}
+
 
 
 
@@ -66,23 +119,40 @@ nav{
     background-color:grey;
     display: grid;
     grid-template: 
-    "nav nav nav" 30px
-    "nav1 nav2 nav3" 1.5fr
-    "nav4 nav5 nav6" 1.5fr
-    /1fr 1fr 1fr;
+    "nav nav nav" 200px
+    "nav1 nav2 nav3" 300px
+    "nav4 nav5 nav6" 300px
+    / 1fr 1fr 1fr;
 
     grid-gap: 30px;
 }
 
+
+
+
 .nav{
     grid-area: nav;
-    background-color: khaki;
+    text-align: center;
+    font-size: 50px;
+    padding: 80px;
+
 }
+
+nav div p{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 30px;
+    font-weight: bold;
+    color: orange;
+    
+}
+
 
 .nav1{
     grid-area: nav1;
     background-color: honeydew;
-
+    
+    
 }
 
 .nav2{
@@ -115,11 +185,29 @@ nav{
 
 }
 
+
+
+
+
+
 aside{
     grid-area: aside;
     
     
 }
+
+.newAccount{
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    margin-left: 550px;
+    margin-top: 20px;
+}
+
+
+
+
+
 
 footer{
     grid-area: footer;
