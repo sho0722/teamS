@@ -91,11 +91,12 @@ ul {
     opacity: 0.8;
 }
 .submit a {
-    color: #fff;
+    /* color: #fff; */
 }
 
 a {
     text-decoration: none;
+    color: #fff;
 }
 input {
     margin-left: 50px;
@@ -114,12 +115,12 @@ input {
     margin-left: 30px;
 }
 
-.wherebox label ul {
+.wherebox ul {
     display: none;
     box-shadow: 0 0 4px #16C4FD;
 }
 
-.wherebox label ul a {
+.wherebox ul  {
     color: #6495ED;
     font-family: serif;
     
