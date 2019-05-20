@@ -4,11 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="">
-    <link rel="stylesheet" href="">
+    <title>Nosete</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/sho.css">
 </head>
 <body>
-    
+    <header>
+        <div>
+            <button class="topBtn">teamS</button>
+        </div>
+        <div class="topLinks">
+                <a href="">teamSとは</a>
+                <a href="">会員登録</a>
+                <a href="">ログイン</a>
+                <a href="">ドライブ登録</a>
+        </div>
+    </header>
+    <div class="top">
+        <div class="search-tab">
+            <input type="text" placeholder="乗車地">
+            <input type="text" placeholder="行き先">
+            <button class="search">検索</button>
+        </div>
+    </div>
+    <aside>
+        <label class="search-list" for="">日付：
+            <input type="date">
+        </label>
+        <label class="search-list" for="">乗車人数：
+            <input type="text" placeholder="">人
+        </label>
+        <label class="search-list" for="">車のタイプ：
+            <input type="radio" name="car">セダン
+            <input type="radio" name="car">ミニバン
+            <input type="radio" name="car">バン
+            <input type="radio" name="car">すべて
+        </label>
+    </aside>
+    <main>
+        <div class="result">
+            <div class="example">
+                <div class="name">
+                    <i class="fas fa-user-circle fa-2x"></i>
+                    <p>嵐</p>
+                    <span>⭐️ 4.5</span>
+                </div>
+                <div class="info">
+                    <ul>
+                        <li id="date">2019/05/20</li>
+                        <li>行き先：
+                            <span id="departure">那覇</span>⇨
+                            <span id="destination">北谷</span>
+                        </li>
+                        <li id="car">ミニバン</li>
+                    </ul>
+                </div>
+                <div class="price">
+                    <ul>
+                        <li>一人あたりの料金</li>
+                        <li>乗車可能人数</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="example"></div>
+            <div class="example"></div>
+            <div class="example"></div>
+            <div class="example"></div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
