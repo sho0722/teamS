@@ -4,7 +4,7 @@ body {
     grid-template: 
     "header header header" 3%
     "main main main" 1fr
-    "section section section" 1fr
+    "section section section" 500px
     "nav nav nav" 1.5fr
     "aside aside aside" 100px
     "footer footer footer" 3%
@@ -138,12 +138,16 @@ nav{
 
 }
 
+nav div{
+    opacity: 0.8;
+}
+
 nav div p{
     text-align: center;
     margin-top: 150px;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: bold;
-    color: orange;
+    color: white;
     
 }
 
@@ -203,6 +207,21 @@ aside{
     margin-left: 550px;
     margin-top: 20px;
 }
+
+
+
+.arrow {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    display: none;
+    border-radius: 30px;
+  }
+
+
+
 
 
 
