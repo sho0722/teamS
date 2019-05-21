@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/sakura.css">
+    <title>ログイン画面</title>
+</head>
+<body>
+        <header>
+                <div>
+                    <button class="topBtn">NoSeTe</button>
+                </div>
+                <div class="topLinks">
+                    <a href="">NoSeTeとは</a>
+                    <a href="">会員登録</a>
+                    <a href="">ログイン</a>
+                    <a href="">ドライブ登録</a>
+         
+                </div>
+            </header>
+    
+    <div class="conterner">
+        <!-- ログイン -->
+        <h2>ログイン</h2>
+
+        <div class="buttons">
+            <button class="facebook">
+                <i class="fab fa-facebook-square"><a href="https://ja-jp.facebook.com/login/"> facebook</a></i> 
+            </button>
+            <button class="twitter">
+                <i class="fab fa-twitter-square"></i><a href="https://twitter.com/login?lang=ja"> twitter</a> 
+            </button>
+        </div>
+
+        <!-- 登録 -->
+        <div class="title">
+            <p>登 録</p>
+        </div>
+
+        <div class="logincontena">
+            <label >お名前 <span>➜</span> <input type="text"></label>
+            <label class="mail" >メールアドレス <span>➜</span> <input type="email"></label>
+            <label >生年月日 <input type="date"></label>
+            <form>性別 <span>➜</span>
+                <label ><input type="radio" name="sen">男</label>
+                <label ><input type="radio" name="sen">女</label>
+            </form> 
+            <label >車種 <span>➜</span>
+                <input type="search" list="list">
+                <datalist id="list">
+                    <option value="セダン"></option>
+                    <option value="ミニバン"></option>
+                    <option value="バン"></option>
+                    <option value="その他"></option>
+            </label>
+            <label >人数 <span>➜</span> <input type="number"> 人</label>
+
+            <div class="wherebox">
+                <div class="dbox">
+                    <label>どこから</label>
+                    <input class="where" type="text">
+                    <ul>
+                        <li>那覇</li>
+                        <li>北谷</li>
+                        <li>沖縄市</li>
+                        <li>宜野湾</li>
+                    </ul>
+                </div> 
+                <div class="wbox">
+                    <label >どこまで </label>
+                    <input class="Where-until" type="text">
+                    <ul>
+                        <li>那覇</li>
+                        <li>北谷</li>
+                        <li>沖縄市</li>
+                        <li>宜野湾</li>
+                    </ul>
+                </div>
+               
+            </div>
+            <label >日付 <span>➜</span>
+                <input type="number" placeholder="月">
+                <input type="number" placeholder="日">
+            </label>
+            <label class="time" >時間 <span>➜</span>
+                <input type="time"> <span>~</span>
+                <input type="time">
+            </label>
+            
+            <label class="comment">コメント<br> <textarea name="" id="" cols="30" rows="10"></textarea></label>
+
+            <!-- 送信ボタン -->
+            <div class="subbutton">
+                <button class="submit"><a href="#">登 録</a></button>
+            </div>  
+        </div> 
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/sakura.js"></script> 
+</body>
+</html>

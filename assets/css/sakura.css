@@ -1,0 +1,174 @@
+header{
+    grid-area: header;
+    display:flex;
+    /* position: absolute; */
+ }
+
+main {
+     height: 100vh;
+ }
+ 
+ .topBtn{
+    position: relative;
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    top:10px;
+    left:10px;
+ }
+ 
+ .topLinks{
+    /* position: relative;
+    top:15px;
+    right: 0; */
+    margin-left:400px;
+    margin-top: 30px;
+ 
+ }
+ 
+ .topLinks a{
+    color: grey;
+    margin-left: 40px;
+    font-size: 20px;
+ }
+
+.conterner {
+    margin: 0 auto;
+    
+}
+
+.logincontena {
+    width: 750px;
+    margin: 0 auto;
+    padding-left: 100px;
+    box-shadow: 0 0 8px #50baa1;
+    padding-top: 15px;
+}
+
+h2 {
+    padding-left: 120px;
+    color: #8EDAE5;
+    font-size: 30px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.buttons button {
+    margin-right: 30px;
+    height: 50px;
+    width: 250px;
+    font-size: 26px;
+    border: none;
+    border-radius: 5px;
+}
+
+.buttons button:hover {
+    opacity: 0.8;
+}
+
+.facebook {
+    background-color: #39579a;
+    color: #fff;
+}
+
+.twitter {
+    background-color: #55acee;
+    color: #fff;
+}
+
+.title {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    color: #50baa1;
+    font-size: 25px;
+    font-family: monospace;
+    
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-weight: bold;
+    color: #6495ED;
+}
+
+form {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-weight: bold;
+    color: #6495ED;
+}
+
+form label {
+    display: inline;  
+}
+
+ul {
+    list-style: none;
+}
+
+.subbutton {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 200px;
+}
+
+.submit {
+    padding: 10px 60px;
+    font-size: 17px;
+    background-color: #e73d7b;
+    border-color: #e73d7b;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.submit:hover {
+    opacity: 0.8;
+}
+
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+input {
+    margin-left: 50px;
+    border: 1px solid silver;
+}
+
+.mail {
+    margin-left: -30px;
+}
+
+.wherebox {
+    display: flex;
+}
+
+.wherebox input {
+    margin-left: 30px;
+}
+
+.wherebox ul {
+    display: none;
+    box-shadow: 0 0 4px #16C4FD;
+    color: #6495ED;
+    font-family: serif;
+    cursor: pointer; 
+}
+
+textarea {
+    margin-left: 90px;
+    width: 460px;
+    height: 156px;
+    border: 1px solid silver;
+}
+.time span {
+    margin-left: 30px;
+}
+
+span {
+    color: #F99F48;
+}
