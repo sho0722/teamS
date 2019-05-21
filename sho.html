@@ -12,10 +12,10 @@
 <body>
     <header>
         <div>
-            <button class="topBtn">teamS</button>
+            <button class="topBtn">NoSeTe</button>
         </div>
         <div class="topLinks">
-                <a href="">teamSとは</a>
+                <a href="">NoSeTeとは</a>
                 <a href="">会員登録</a>
                 <a href="">ログイン</a>
                 <a href="">ドライブ登録</a>
@@ -25,56 +25,302 @@
         <div class="search-tab">
             <input type="text" placeholder="乗車地">
             <input type="text" placeholder="行き先">
-            <button class="search">検索</button>
+            <button class="shere-btn">相乗り検索</button>
+            <button class="request-btn">リクエスト検索</button>
         </div>
     </div>
     <aside>
-        <label class="search-list" for="">日付：
+        <label for=""><strong>日付：</strong>
             <input type="date">
         </label>
-        <label class="search-list" for="">乗車人数：
-            <input type="text" placeholder="">人
+        <label class="time" for=""><strong>出発時間：</strong>
+            <select name="" id="">
+                <option value="">00</option>
+                <option value="">01</option>
+                <option value="">02</option>
+                <option value="">03</option>
+                <option value="">04</option>
+                <option value="">05</option>
+                <option value="">06</option>
+                <option value="">07</option>
+                <option value="">08</option>
+                <option value="">09</option>
+                <option value="">10</option>
+                <option value="">11</option>
+                <option value="">12</option>
+                <option value="">13</option>
+                <option value="">14</option>
+                <option value="">15</option>
+                <option value="">16</option>
+                <option value="">17</option>
+                <option value="">18</option>
+                <option value="">19</option>
+                <option value="">20</option>
+                <option value="">21</option>
+                <option value="">22</option>
+                <option value="">23</option>
+            </select>
+            <select name="" id="">
+                <option value="">00</option>
+                <option value="">05</option>
+                <option value="">10</option>
+                <option value="">15</option>
+                <option value="">20</option>
+                <option value="">25</option>
+                <option value="">30</option>
+                <option value="">35</option>
+                <option value="">40</option>
+                <option value="">45</option>
+                <option value="">50</option>
+                <option value="">55</option>
+            </select>
+            <span>〜</span>
+            <select name="" id="">
+                <option value="">00</option>
+                <option value="">01</option>
+                <option value="">02</option>
+                <option value="">03</option>
+                <option value="">04</option>
+                <option value="">05</option>
+                <option value="">06</option>
+                <option value="">07</option>
+                <option value="">08</option>
+                <option value="">09</option>
+                <option value="">10</option>
+                <option value="">11</option>
+                <option value="">12</option>
+                <option value="">13</option>
+                <option value="">14</option>
+                <option value="">15</option>
+                <option value="">16</option>
+                <option value="">17</option>
+                <option value="">18</option>
+                <option value="">19</option>
+                <option value="">20</option>
+                <option value="">21</option>
+                <option value="">22</option>
+                <option value="">23</option>
+            </select>
+            <select name="" id="">
+                <option value="">00</option>
+                <option value="">05</option>
+                <option value="">10</option>
+                <option value="">15</option>
+                <option value="">20</option>
+                <option value="">25</option>
+                <option value="">30</option>
+                <option value="">35</option>
+                <option value="">40</option>
+                <option value="">45</option>
+                <option value="">50</option>
+                <option value="">55</option>
+            </select>
         </label>
-        <label class="search-list" for="">車のタイプ：
-            <input type="radio" name="car">セダン
-            <input type="radio" name="car">ミニバン
-            <input type="radio" name="car">バン
-            <input type="radio" name="car">すべて
+        <label for=""><strong>乗車人数：</strong>
+            <input class="people" type="text" placeholder="2">人
+        </label>
+        <label class="car" for="car"><strong>車のタイプ</strong><br>
+            <input type="radio" name="car" checked>セダン<br>
+            <input type="radio" name="car">SUV<br>
+            <input type="radio" name="car">ステーションワゴン<br>
+            <input type="radio" name="car">ミニバン<br>
+            <input type="radio" name="car">バン<br>
+            <input type="radio" name="car">すべて<br>
+        </label>
+        <label class="like" for=""><strong>こだわり条件</strong><br>
+            <input type="checkbox" name="" id="">禁煙車<br>
+            <input type="checkbox" name="" id="">飲食OK<br>
+            <input type="checkbox" name="" id="">ペットOK<br>
+            <input type="checkbox" name="" id="">子どもOK<br>
+            <input type="checkbox" name="" id="">女性限定<br>
+            <input type="checkbox" name="" id="">男性限定<br>
+            <input type="checkbox" name="" id="">大型車希望<br>
+            <input type="checkbox" name="" id="">途中下車OK<br>
+        </label>
+        <label class="purpose" for=""><strong>目的</strong><br>
+            <input type="radio" name="porpose" id="" checked>帰省<br>
+            <input type="radio" name="porpose" id="">観光<br>
+            <input type="radio" name="porpose" id="">趣味・イベント<br>
+            <input type="radio" name="porpose" id="">観戦<br>
+            <input type="radio" name="porpose" id="">ボランティア<br>
+            <input type="radio" name="porpose" id="">アクティビティ<br>
+            <input type="radio" name="porpose" id="">その他
         </label>
     </aside>
     <main>
-        <div class="result">
-            <div class="example">
-                <div class="name">
-                    <i class="fas fa-user-circle fa-2x"></i>
-                    <p>嵐</p>
-                    <span>⭐️ 4.5</span>
-                </div>
-                <div class="info">
-                    <ul>
-                        <li id="date">2019/05/20</li>
-                        <li>行き先：
-                            <span id="departure">那覇</span>⇨
-                            <span id="destination">北谷</span>
-                        </li>
-                        <li id="car">ミニバン</li>
-                    </ul>
-                </div>
-                <div class="price">
-                    <ul>
-                        <li>一人あたりの料金</li>
-                        <li>乗車可能人数</li>
-                    </ul>
-                </div>
+        <div class="example">
+            <div class="name">
+                <i class="fas fa-user-circle fa-2x female"></i>
+                <p>Namie Amuro</p>
+                <span>⭐️ 4.5</span>
             </div>
-            <div class="example"></div>
-            <div class="example"></div>
-            <div class="example"></div>
-            <div class="example"></div>
+            <div class="info">
+                <ul>
+                    <li id="date"><i class="fas fa-calendar-alt"></i>2019/05/20</li>
+                    <li><i class="fas fa-clock"></i>13:00</li>
+                    <li><i class="fas fa-map-signs"></i>
+                        <span id="departure">那覇</span>⇨
+                        <span id="destination">北谷</span>
+                    </li>
+                    <li id="car"><i class="fas fa-car"></i>ロールス・ロイス</li>
+                </ul>
+            </div>
+            <div class="price">
+                <ul>
+                    <li>一人あたりの料金<br>
+                        <span><i class="fas fa-yen-sign"></i>3,500</span>
+                    </li>
+                    <li>乗車可能人数<br>
+                        <span><i class="fas fa-male"></i>2</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="example">
+            <div class="name">
+                <i class="fas fa-user-circle fa-2x female"></i>
+                <p>新垣結衣</p>
+                <span>⭐️ 4.6</span>
+            </div>
+            <div class="info">
+                <ul>
+                    <li id="date"><i class="fas fa-calendar-alt"></i>2019/06/10</li>
+                    <li><i class="fas fa-clock"></i>13:00</li>
+                    <li><i class="fas fa-map-signs"></i>
+                        <span id="departure">名護</span>⇨
+                        <span id="destination">那覇</span>
+                    </li>
+                    <li id="car"><i class="fas fa-car"></i>ミニクーパー</li>
+                </ul>
+            </div>
+            <div class="price">
+                <ul>
+                    <li>一人あたりの料金<br>
+                        <span><i class="fas fa-yen-sign"></i>4,000</span>
+                    </li>
+                    <li>乗車可能人数<br>
+                        <span><i class="fas fa-male"></i>1</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="example">
+            <div class="name">
+                <i class="fas fa-user-circle fa-2x male"></i>
+                <p>イッサ</p>
+                <span>⭐️ 4.2</span>
+            </div>
+            <div class="info">
+                <ul>
+                    <li id="date"><i class="fas fa-calendar-alt"></i>2019/05/25</li>
+                    <li><i class="fas fa-clock"></i>14:00</li>
+                    <li><i class="fas fa-map-signs"></i>
+                        <span id="departure">北谷</span>⇨
+                        <span id="destination">那覇空港</span>
+                    </li>
+                    <li id="car"><i class="fas fa-car"></i>セダン</li>
+                </ul>
+            </div>
+            <div class="price">
+                <ul>
+                    <li>一人あたりの料金<br>
+                        <span><i class="fas fa-yen-sign"></i>2,000</span>
+                    </li>
+                    <li>乗車可能人数<br>
+                        <span><i class="fas fa-male"></i>3</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="example">
+            <div class="name">
+                <i class="fas fa-user-circle fa-2x male"></i>
+                <p>ORANGE RANGE</p>
+                <span>⭐️ 4.3</span>
+            </div>
+            <div class="info">
+                <ul>
+                    <li id="date"><i class="fas fa-calendar-alt"></i>2019/05/29</li>
+                    <li><i class="fas fa-clock"></i>20:00</li>
+                    <li><i class="fas fa-map-signs"></i>
+                        <span id="departure">那覇</span>⇨
+                        <span id="destination">うるま市</span>
+                    </li>
+                    <li id="car"><i class="fas fa-car"></i>バン</li>
+                </ul>
+            </div>
+            <div class="price">
+                <ul>
+                    <li>一人あたりの料金<br>
+                        <span><i class="fas fa-yen-sign"></i>3,000</span>
+                    </li>
+                    <li>乗車可能人数<br>
+                        <span><i class="fas fa-male"></i>5</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="example">
+            <div class="name">
+                <i class="fas fa-user-circle fa-2x female"></i>
+                <p>みつしまひかり</p>
+                <span>⭐️ 4.5</span>
+            </div>
+            <div class="info">
+                <ul>
+                    <li id="date"><i class="fas fa-calendar-alt"></i>2019/06/01</li>
+                    <li><i class="fas fa-clock"></i>11:00</li>
+                    <li><i class="fas fa-map-signs"></i>
+                        <span id="departure">北谷</span>⇨
+                        <span id="destination">沖縄市</span>
+                    </li>
+                    <li id="car"><i class="fas fa-car"></i>ミニバン</li>
+                </ul>
+            </div>
+            <div class="price">
+                <ul>
+                    <li>一人あたりの料金<br>
+                        <span><i class="fas fa-yen-sign"></i>1,000</span>
+                    </li>
+                    <li>乗車可能人数<br>
+                        <span><i class="fas fa-male"></i>1</span>
+                    </li>
+                </ul>
+            </div>
         </div>
     </main>
     <footer>
-
+        <div class="link">
+            <h2>NoSeTe</h2>
+            <a href="sakura.html">ログイン</a>
+            <a href="sakura.html">会員登録</a>
+            <a href="sakura.html">ドライブ登録</a>
+        </div>
+        <div class="link">
+            <h2>NoSeTeについて</h2>
+            <a href="">NoSeTeとは</a>
+            <a href="">安全性について</a>
+            <a href="">ご利用ガイド</a>
+            <a href="">よくある質問</a>
+            <a href="">プレスリリース</a>
+            <a href="">お知らせ</a>
+        </div>
+        <div class="link">
+            <h2>会社案内</h2>
+            <a href="">運営会社</a>
+            <a href="">利用規約</a>
+            <a href="">特定商取引法に基づく表記</a>
+            <a href="">個人情報の取り扱いについて</a>
+            <a href="">お問い合わせ</a>
+        </div>
+        <div class="icons">
+            <i class="fab fa-twitter-square fa-4x"></i>
+            <i class="fab fa-facebook-square fa-4x"></i>
+            <i class="fab fa-instagram fa-4x"></i>
+        </div>
     </footer>
+    <i class="arrow fas fa-arrow-up fa-4x"></i>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="assets/js/app.js"></script>
 </body>
 </html>
