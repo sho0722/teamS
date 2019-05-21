@@ -1,5 +1,10 @@
 $(function() {
 
+    // $("a").hover(function () {
+    //     let i = $(this).children("i");
+    //     $(i).fadeIn("fast");
+    // })
+
     $(window).scroll(function() {
         let scrollTop = $(window).scrollTop();
 
