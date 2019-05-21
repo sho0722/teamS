@@ -12,12 +12,12 @@
 <body>
     <header>
         <div>
-            <span class="topBtn">NoSeTe</span>
+            <a href="index.html"><span class="topBtn">NoSeTe</span></a>
         </div>
         <div class="topLinks">
                 <a href="">NoSeTeとは</a>
-                <a href="">会員登録</a>
-                <a href="">ログイン</a>
+                <a href="sakura.html">会員登録</a>
+                <a href="sakura.html">ログイン</a>
                 <a href="">ドライブ登録</a>
         </div>
     </header>
@@ -30,7 +30,7 @@
         </div>
     </div>
     <aside>
-        <label for=""><strong>日付：</strong>
+        <label class="date" for=""><strong>日付：</strong>
             <input type="date">
         </label>
         <label class="time" for=""><strong>出発時間：</strong>
@@ -116,8 +116,8 @@
                 <option value="">55</option>
             </select>
         </label>
-        <label for=""><strong>乗車人数：</strong>
-            <input class="people" type="text" placeholder="2">人
+        <label class="people" for=""><strong>乗車人数：</strong>
+            <input class="people-input" type="text" placeholder="2">人
         </label>
         <label class="car" for="car"><strong>車のタイプ</strong><br>
             <input type="radio" name="car" checked>セダン<br>
@@ -292,6 +292,7 @@
     <footer>
         <div class="link">
             <h2>NoSeTe</h2>
+            <a href="index.html">TOP</a>
             <a href="sakura.html">ログイン</a>
             <a href="sakura.html">会員登録</a>
             <a href="sakura.html">ドライブ登録</a>
@@ -322,5 +323,6 @@
     <i class="arrow fas fa-arrow-up fa-4x"></i>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="assets/js/app.js"></script>
+    <script src="assets/js/sho.js"></script>
 </body>
 </html>

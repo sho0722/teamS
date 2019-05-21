@@ -17,11 +17,15 @@ header {
     background-color: yellowgreen;
 }
 
+header a {
+    text-decoration: none;
+}
+
 .topBtn{
     color: #FFF;
     font-size: 50px;
     font-family:'Noteworthy',sans-serif;
-    margin:
+    margin-left: 40px;
 }
  
 .topLinks{
@@ -31,7 +35,7 @@ header {
 }
  
 .topLinks a{
-    color: grey;
+    color: #FFF;
     margin-left: 40px;
     font-size: 20px;
 }
@@ -103,7 +107,11 @@ aside label {
     font-style: italic;
 }
 
-.people {
+.date, .time, .people, .car, .like, .purpuse {
+    display: none;
+}
+
+.people-input {
     width: 30px;
 }
 
