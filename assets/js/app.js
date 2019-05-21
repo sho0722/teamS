@@ -25,56 +25,8 @@ $(window).scroll(function(){
         
     };
 
-    });
 
 
-    // 画面がスクロールされたら文字がでてくる
-    $(window).scroll(function(){
-        // スクロールの量をとってくる
-        let scrollTop = $(document).scrollTop();
-        console.log(scrollTop);
-
-        // スクロールされたら文字を表示
-        if ( scrollTop > 50 ){
-            $(".takeme").fadeIn();
-        } else {
-            $(".takeme").fadeOut();
-        }
-
-    })
-
-
-
-
-
-    // 画像がクリックされたら、div#overをnavに追加
-    // $("#picture").click(function(){
-        // id="over"のdivタグを追加する
-        // let div = $("#nav").append($(`<div id="over">`));
-        // console.log(div);
-        // ふわっと出るアニメ―ション
-        // $('<div id="over">').appendTo($('.container')).hide().fadeIn();
-
-        // id="over"のdivタグにspanとimgタグを追加
-        // $("#over").append($(`<div class="img-box">`));
-        // $(".img-box").append($(`<span class="close">&times;</span>`));
-        // $(".img-box").append($(`<img class="lightbox">`));
-
-        // クリックされた画像のsrcを取得する
-        // let imageSrc = $(this).attr("src");
-        // .lightboxにとってきたソースを追加するだけ！ｃｓｓの反映ではない
-        // $(".lightbox").attr("src",imageSrc);
-
-
-        // .closeがおされたら
-        // $(".close").click(function(){
-            // $(this).parent().parent().remove();
-            // $('#over').remove();
-        // })
-
-    // });
-
-
-
+});
 
 });

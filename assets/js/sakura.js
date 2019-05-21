@@ -30,9 +30,7 @@ $(function() {
         let text = $(this).text();
         console.log(text);
         $(".Where-until").val(text);
-        $(this).parent().slideUp();
-
-       
+        $(this).parent().slideUp(); 
     })
-
+    
 })
