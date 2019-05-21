@@ -1,11 +1,11 @@
 body {
-    height: 400vh;
+    height: 300vh;
     display: grid;
     grid-template: 
     "header header header" 3%
-    "main main main" 1fr
+    "main main main" 500px
     "section section section" 500px
-    "nav nav nav" 1fr
+    "nav nav nav" 0.5fr
     "aside aside aside" 100px
     "footer footer footer" 3%
     /1fr 1fr 1fr; 
@@ -55,13 +55,28 @@ main{
     background-size: cover;
     opacity: 0.9;
     
+    
 }
+
+.takeme{
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 10px;
+    color: lightgreen;
+    margin-left: 150px;
+    margin-top: 200px;
+    display: none;
+}
+
+
 
 main div {
     display: flex;
     /* width: px; */
     margin: 0 auto;
-    margin-top: 300px;
+    margin-top: 100px;
+    
+    
 }
 
 form{

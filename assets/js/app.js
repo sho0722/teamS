@@ -28,9 +28,23 @@ $(window).scroll(function(){
     });
 
 
+    // 画面がスクロールされたら文字がでてくる
+    $(window).scroll(function(){
+        // スクロールの量をとってくる
+        let scrollTop = $(document).scrollTop();
+        console.log(scrollTop);
+
+        // スクロールされたら文字を表示
+        if ( scrollTop > 50 ){
+            $(".takeme").fadeIn();
+        } else {
+            $(".takeme").fadeOut();
+        }
+
+    })
 
 
-    
+
 
 
     // 画像がクリックされたら、div#overをnavに追加
