@@ -1,7 +1,11 @@
 header{
     grid-area: header;
     display:flex;
-    position: absolute;
+    /* position: absolute; */
+ }
+
+main {
+     height: 100vh;
  }
  
  .topBtn{
@@ -37,13 +41,14 @@ header{
     width: 750px;
     margin: 0 auto;
     padding-left: 100px;
-    border: 3px solid #6AC1B7;
+    box-shadow: 0 0 8px #50baa1;
     padding-top: 15px;
 }
 
 h2 {
     padding-left: 120px;
     color: #8EDAE5;
+    font-size: 30px;
 }
 
 .buttons {
@@ -78,7 +83,8 @@ h2 {
     margin-top: 35px;
     margin-bottom: 25px;
     color: #50baa1;
-    font-size: 20px;
+    font-size: 25px;
+    font-family: monospace;
     
 }
 
@@ -87,12 +93,14 @@ label {
     margin-top: 20px;
     margin-left: 30px;
     font-weight: bold;
+    color: #6495ED;
 }
 
 form {
     margin-top: 20px;
     margin-left: 30px;
     font-weight: bold;
+    color: #6495ED;
 }
 
 form label {
@@ -104,8 +112,8 @@ ul {
 }
 
 .subbutton {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     margin-left: 200px;
 }
 
@@ -146,19 +154,21 @@ input {
 .wherebox ul {
     display: none;
     box-shadow: 0 0 4px #16C4FD;
-}
-
-.wherebox ul  {
     color: #6495ED;
     font-family: serif;
-    
+    cursor: pointer; 
 }
 
 textarea {
     margin-left: 90px;
     width: 460px;
     height: 156px;
+    border: 1px solid silver;
 }
-label span {
+.time span {
     margin-left: 30px;
+}
+
+span {
+    color: #F99F48;
 }
