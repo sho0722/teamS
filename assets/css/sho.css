@@ -281,6 +281,7 @@ main {
 
 footer {
     grid-area: footer;
+    position: relative;
     display: flex;
     justify-content: space-evenly;
     color: #FFF;
@@ -304,6 +305,11 @@ footer a {
 
 .icons i {
     margin: 25px 20px;
+}
+
+footer img {
+    position: absolute;
+    top: -25px;
 }
 
 /* footerここまで */
