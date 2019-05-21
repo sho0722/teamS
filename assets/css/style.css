@@ -2,39 +2,46 @@ body {
     height: 300vh;
     display: grid;
     grid-template: 
-    "header header header" 3%
+    "header header header" 7%
     "main main main" 500px
     "section section section" 500px
     "nav nav nav" 0.5fr
     "aside aside aside" 100px
-    "footer footer footer" 3%
+    "footer footer footer" 15%
     /1fr 1fr 1fr; 
 
 }
 
-header{
+header {
     grid-area: header;
     display:flex;
-    position: absolute;
+    justify-content: space-between;
+    background-color: yellowgreen;
 }
 
-.topBtn{
-    position: relative;
-    width: 300px;
-    height: 50px;
-    font-size: 30px;
-    top:10px;
-    left:10px;
+.top-logo {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 40px;
 }
 
+header a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 50px;
+    font-family:'Noteworthy',sans-serif;
+    margin-bottom: 10px;
+}
+ 
 .topLinks{
-    margin-left:400px;
+    margin-right:60px;
     margin-top: 30px;
-        
 }
 
 .topLinks a{
-    color: grey;
+    color: #FFF;
     margin-left: 40px;
     font-size: 20px;
 }
@@ -95,9 +102,22 @@ form{
 .searchBtn{
     margin-left: 40px;
     width: 100px;
+    font-size: 25px;
+    border-radius: 10px;
+    opacity: 0.7;
+    border: 3px solid #CCCC66;
 }
 
+.searchBtn {
+    color: #CCCC66;
+    text-decoration: none;
+}
 
+.searchBtn:hover {
+    background-color: #CCCC66;
+    opacity: 1;
+    color: #FFF;
+}
 
 
 
@@ -252,17 +272,33 @@ aside{
   }
 
 
-
-
-
-
-
-
-
-footer{
+  footer {
     grid-area: footer;
-    background-color: grey;
+    display: flex;
+    justify-content: space-evenly;
+    color: #FFF;
+    background-color: #708090
 }
+
+.link {
+    display: flex;
+    flex-direction: column;
+}
+
+footer h2 {
+    font-weight: bold;
+    margin: 25px 0;
+}
+
+footer a {
+    color: #FFF;
+    margin-bottom: 15px;
+}
+
+.icons i {
+    margin: 25px 20px;
+}
+
 
 
 
