@@ -1,9 +1,15 @@
 $(function() {
 
-    // $("a").hover(function () {
-    //     let i = $(this).children("i");
-    //     $(i).fadeIn("fast");
-    // })
+    let ToplinksA = $(".topLinks").children("a");
+    console.log(ToplinksA)
+    $(ToplinksA).mouseover(function() {
+        console.log("#")
+        $(this).children("i").addClass("waving");
+    });
+
+    $(ToplinksA).mouseout(function() {
+        $(this).children("i").removeClass("waving");
+    })
 
     $(window).scroll(function() {
         let scrollTop = $(window).scrollTop();

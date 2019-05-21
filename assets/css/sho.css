@@ -12,6 +12,7 @@ body {
 
 header {
     grid-area: header;
+    position: relative;
     display:flex;
     justify-content: space-between;
     background-color: yellowgreen;
@@ -42,6 +43,71 @@ header a {
     color: #FFF;
     margin-left: 40px;
     font-size: 20px;
+}
+
+/* headerのアニメーション */
+
+.waving {
+    color: #003366;
+    animation: wave 0.3s infinite alternate linear;
+}
+
+@keyframes wave {
+    100% {
+        transform: rotate(-45deg);
+    }
+}
+
+header img {
+    position: absolute;
+    bottom: -15%;
+    left: 270px;
+    height: 80%;
+    animation: moveout 6s ease-in-out;
+}
+
+@keyframes moveout {
+    30% {
+        left: 500px;
+    }
+
+    50% {
+        left: 500px;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+.man {
+    position: absolute;
+    bottom: 5px;
+    left: 515px;
+    color: #555555;
+    animation: fadeout 6s;
+}
+
+.woman {
+    position: absolute;
+    bottom: 5px;
+    left: 535px;
+    color: #555555;
+    animation: fadeout 6s;
+}
+
+@keyframes fadeout {
+    30% {
+        opacity: 9.9;
+    }
+
+    50% {
+        opacity: 0;      
+    }
+
+    100% {
+        opacity: 0;
+    }
 }
 
 /* headerここまで */

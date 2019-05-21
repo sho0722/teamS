@@ -2,12 +2,12 @@ body {
     height: 400vh;
     display: grid;
     grid-template: 
-    "header header header" 7%
+    "header header header" 5%
     "main main main" 500px
     "section section section" 500px
     "nav nav nav" 1.5fr
     "aside aside aside" 100px
-    "footer footer footer" 15%
+    "footer footer footer" 12%
     /1fr 1fr 1fr; 
 
 }
@@ -79,6 +79,7 @@ main div {
     /* width: px; */
     margin: 0 auto;
     margin-top: 100px;
+
 }
 
 form{
