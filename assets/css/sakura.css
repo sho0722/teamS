@@ -1,7 +1,7 @@
 header{
     grid-area: header;
     display:flex;
-    background-color: yellowgreen;
+    background: linear-gradient(-90deg, #E72DF0, #77F9EE);
     /* position: absolute; */
  }
 
@@ -28,7 +28,7 @@ main {
  }
  
  .topLinks a{
-    color: grey;
+    color: #fff;
     margin-left: 40px;
     font-size: 20px;
  }
