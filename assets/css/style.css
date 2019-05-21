@@ -1,11 +1,11 @@
 body {
-    height: 300vh;
+    height: 400vh;
     display: grid;
     grid-template: 
     "header header header" 7%
     "main main main" 500px
     "section section section" 500px
-    "nav nav nav" 0.5fr
+    "nav nav nav" 1.5fr
     "aside aside aside" 100px
     "footer footer footer" 15%
     /1fr 1fr 1fr; 
@@ -62,28 +62,13 @@ main{
     background-size: cover;
     opacity: 0.9;
     
-    
 }
-
-.takeme{
-    font-size: 100px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 10px;
-    color: lightgreen;
-    margin-left: 150px;
-    margin-top: 200px;
-    display: none;
-}
-
-
 
 main div {
     display: flex;
     /* width: px; */
     margin: 0 auto;
-    margin-top: 100px;
-    
-    
+    margin-top: 300px;
 }
 
 form{
@@ -93,10 +78,6 @@ form{
 .select {
     width: 200px;
     height: 50px;;
-}
-
-.select:hover{
-    background-color:lightgreen;
 }
 
 .searchBtn{
@@ -141,11 +122,6 @@ section h2 {
     margin-top: 30px;
 }
 
-.areaBtns button:hover{
-    background-color: bisque;
-    border-color: lightgreen;
-}
-
 .Btns {
     margin-left: 200px; 
 }
@@ -186,10 +162,6 @@ nav div{
     opacity: 0.8;
 }
 
-nav div p:hover {
-    color:orangered;
-}
-
 nav div p{
     text-align: center;
     margin-top: 150px;
@@ -199,9 +171,6 @@ nav div p{
     
 }
 
-#picture:hover{
-    opacity: 0.5;
-}
 
 .nav1{
     grid-area: nav1;
