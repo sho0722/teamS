@@ -32,5 +32,32 @@ $(function() {
         $(".Where-until").val(text);
         $(this).parent().slideUp(); 
     })
+
+    $('.submit').jrumble({
+        x: 3,
+        y: 3,
+        rotation: 1
+    });
+
+    //登録ボタンをプラグインでブルブル 
+    $(".submit").hover(function() {
+        $(this).trigger('startRumble');
+    }, function(){
+        $(this).trigger('stopRumble');
+        
+    })
+
+    $('h2').jrumble({
+        x: 4,
+        y: 0,
+        rotation: 0
+    });
+
+    $("h2").hover(function() {
+        $(this).trigger('startRumble');
+    }, function(){
+        $(this).trigger('stopRumble');
+        
+    })
     
 })
